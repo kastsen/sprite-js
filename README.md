@@ -1,5 +1,7 @@
-Sprite
+Sprite JS
 ======
+
+Fork modifications: To enable the code to work with multiple columns and rows of sprites, the convertToFramePoints function has been improved. Additionally, the parameters numCols and numRows have been added to specify the number of columns and rows in the sprite sheet.
 
 Sprite is a JavaScript sprite sheet animation library. It uses `background-position` for animating the sprite sheet and where possible `requestAnimationFrame`, falling back to `setInterval`.
 
